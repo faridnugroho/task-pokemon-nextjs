@@ -87,7 +87,7 @@ export function Pokemon() {
                 </TableRow>
               </TableHead>
               <TableBody>
-                {pokemonData.map((pokemon, index) => (
+                {pokemonData?.map((pokemon, index) => (
                   <TableRow key={index}>
                     <TableCell>{index + 1}</TableCell>
                     <TableCell>
