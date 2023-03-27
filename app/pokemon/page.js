@@ -19,7 +19,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Link from 'next/link';
-import { Chart } from './pie';
+import { Chart } from '../pie';
+import { Pokemon } from '../list';
 
 const drawerWidth = 240;
 
@@ -146,7 +147,7 @@ function ResponsiveDrawer(props) {
         }}
       >
         <Toolbar />
-        <Chart />
+        <Pokemon />
       </Box>
     </Box>
   );
